@@ -1,0 +1,31 @@
+{
+  "layerId": "CBDirectInspectService_9035",
+  "sourceForAssetName": {
+    "source": "featureLayer",
+    "value": "AssetOwner"
+  },
+  "sourceForAssetOwner": {
+    "source": "featureLayer",
+    "value": "AssetName"
+  },
+  "sourceForLatitude": {
+    "source": "special",
+    "value": "mapLatitude"
+  },
+  "sourceForLongitude": {
+    "source": "special",
+    "value": "mapLongitude"
+  },
+  "sourceForTid": {
+    "source": "featureLayer",
+    "value": "MarkerTID"
+  },
+  "sourceForEpc": {
+    "source": "featureLayer",
+    "value": "MarkerEPC"
+  },
+  "sourceForLock": {
+    "source": "assign",
+    "value": true
+  }
+}

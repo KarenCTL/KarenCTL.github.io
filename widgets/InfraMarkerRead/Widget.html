@@ -1,0 +1,30 @@
+<div class="rfid-listview">
+	<!--
+	<div class="rfid-listview-options">
+		<div data-dojo-attach-point="spoofBlock" style="height:6px">
+			<input type="checkbox" checked="false" id="spoofReadCheckBox" data-dojo-type="jimu/dijit/CheckBox"
+				data-dojo-attach-point="spoofReadCheckBox" />
+			<label for="spoofReadCheckBox">Spoof tag read</label>
+		</div>
+		<div data-dojo-attach-point="filterBlock" style="height:6px">
+			<input type="checkbox" checked="false" id="filterReads" data-dojo-type="jimu/dijit/CheckBox"
+				data-dojo-attach-point="filterReads" />
+			<label for="filterReads">Filter empty reads</label>
+		</div>
+	</div>
+	-->
+	<div>
+		<input type="button" class="InfraMarkerButton" value="Read Marker"
+			data-dojo-attach-event="click:_clickReadTag">
+	</div>
+	<div class="list-header"></div>
+	<div  style="height:6px">
+		<em id="_read_feedback" data-dojo-attach-point="_read_feedback"></em>
+	</div>
+	<div id='divGrid'>
+		<div data-dojo-attach-point="RFIDReadsGridNode"></div>
+	</div>
+	<div  style="height:6px; float:right">
+		<p id="_footer_info" data-dojo-attach-point="_footer_info"></p>
+	</div>
+</div>

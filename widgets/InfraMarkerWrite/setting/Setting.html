@@ -1,0 +1,49 @@
+<div>
+	<div>
+		<label>${nls.selectLayerText}</label>
+		<select data-dojo-type="dijit/form/Select" data-dojo-attach-point="layerSelect"></select>
+	</div>
+	<hr>
+	<h3>Select where to get information that will be written to the tag</h3>
+	<div class="rfid-form-settings">
+		<div>${nls.RFIDTagFields.assetName}</div>
+		<div>
+			<select data-dojo-type="dijit/form/Select" data-dojo-attach-point="sourceForAssetName"></select>
+		</div>
+		<div>${nls.RFIDTagFields.assetOwner}</div>
+		<div>
+			<select data-dojo-type="dijit/form/Select" data-dojo-attach-point="sourceForAssetOwner"></select>
+		</div>
+	</div>
+	<h3>Latitude and Longitude</h3>
+	<div style="margin-left: 40px;">
+		<div type="checkbox" checked="true" id="latLongFromFeatureCheckBox" data-dojo-type="jimu/dijit/CheckBox"
+			data-dojo-attach-point="latLongFromFeatureCheckBox">
+		</div>
+		<label for="latLongFromFeatureCheckBox">From feature's location on map</label>
+	</div>
+	<div style="margin-left: 40px;">
+		<div type="checkbox" checked="false" id="latLongFromUserCheckBox" data-dojo-type="jimu/dijit/CheckBox"
+			data-dojo-attach-point="latLongFromUserCheckBox">
+		</div>
+		<label for="latLongFromUserCheckBox">From user's location (not implemented)</label>
+	</div>
+	<h3>Select feature fields to be updated with tag ID information</h3>
+	<div class="rfid-form-settings">
+		<div>${nls.RFIDTagFields.tid}</div>
+		<div>
+			<select data-dojo-type="dijit/form/Select" data-dojo-attach-point="sourceForTid"></select>
+		</div>
+		<div>${nls.RFIDTagFields.epc}</div>
+		<div>
+			<select data-dojo-type="dijit/form/Select" data-dojo-attach-point="sourceForEpc"></select>
+		</div>
+	</div>
+	<div>
+		<input type="checkbox" checked="true" id="lockMarkerCheckBox" data-dojo-type="jimu/dijit/CheckBox"
+			data-dojo-attach-point="sourceForLock" class="jimu-checkbox" >
+		<label for="lockMarkerCheckBox">Lock marker after writing</label>
+	</div>
+
+</div>
+

@@ -1,0 +1,23 @@
+.rfid-flex-settings {
+  display:flex;
+  flex-direction:row;
+  width:80%;
+}
+
+.rfid-flex-settings select,
+.rfid-flex-settings input,
+.rfid-flex-settings table {
+  flex-grow:1;
+}
+
+.rfid-flex-settings label {
+  flex-grow:0;
+}
+
+.dgrid {
+  height: 20px;;
+}
+.dgrid .dgrid-scroller {
+  position: relative;
+  overflow: visible;
+}

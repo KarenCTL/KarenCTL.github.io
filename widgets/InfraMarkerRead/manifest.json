@@ -1,0 +1,10 @@
+{
+  "name": "InfraMarkerRead",
+  "version": "1.0.0",
+  "copyright": "Copyright © Berntsen International",
+  "platform": "HTML",
+  "wabVersion": "2.15",
+  "author": "Berntsen International",
+  "description": "Web AppBuilder widget for reading RFID markers",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0"
+}

@@ -1,0 +1,17 @@
+.rfid-form-settings {
+  display: grid;
+  grid-template-columns: 130px calc(100% - 130px);
+  grid-gap: 8px;
+  margin-top: 10px;
+  width: 50%;
+}
+
+.rfid-form-settings > div:nth-child(odd) {
+  text-align: right;  
+}
+
+.rfid-form-settings select,
+.rfid-form-settings input,
+.rfid-form-settings table {
+  width: 100%;
+}

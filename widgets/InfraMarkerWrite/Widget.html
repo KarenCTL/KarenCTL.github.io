@@ -1,0 +1,36 @@
+<div>
+	<div class="list-header" data-dojo-attach-point="headerNode"></div>
+	<!--<div id="surface"></div>-->
+	<div>
+		<input type="button" class="InfraMarkerButton" value="Write Marker" data-dojo-attach-point="writeTagButton" 
+			data-dojo-attach-event="click:_clickWriteTag">
+	</div>
+	<div>
+		<p data-dojo-attach-point="statusNode" class="status-box"></p>
+	</div>
+	<div class="rfid-form-items" data-dojo-attach-point="markerFieldBlock">
+		<div class='title'>${nls.assetNameInputLabel}</div>
+		<div><input readonly="readonly" data-dojo-attach-point="assetNameInputNode"></div>
+	
+		<div class='title'>${nls.assetOwnerInputLabel}</div>
+		<div><input readonly="readonly" data-dojo-attach-point="assetOwnerInputNode"></div>
+	
+		<div class='title'>${nls.latitudeInputLabel}</div>
+		<div><input readonly="readonly" data-dojo-attach-point="latitudeInputNode"></div>
+	
+		<div class='title'>${nls.longitudeInputLabel}</div>
+		<div><input readonly="readonly" data-dojo-attach-point="longitudeInputNode"></div>
+	
+		<div class='title'>${nls.dateTimeInputLabel}</div>
+		<div><input readonly="readonly" data-dojo-attach-point="dateTimeInputNode"></div>
+	
+		<!--<div>${nls.epcInputLabel}</div>-->
+		<div><input class="jimu-input" data-dojo-attach-point="epcInputNode"></div>
+	
+		<!--<div>${nls.tidInputLabel}</div>-->
+		<div><input class="jimu-input" data-dojo-attach-point="tidInputNode"></div>
+	</div>
+	<div  style="height:6px; float:right">
+		<p id="_footer_info" data-dojo-attach-point="_footer_info"></p>
+	</div>
+</div>
